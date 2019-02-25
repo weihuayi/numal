@@ -1,5 +1,6 @@
 # 《数值代数课程简介》
 
+<!---这里简单介绍课程的相关的资源和工具--->
 
 ## 教师助教信息 
 
@@ -9,26 +10,26 @@
 * **邮箱：** weihuayi@xtu.edu.cn
 
 
-## 课程内容
+## 课程内容简介
 
-科学计算中的很多模型问题，最后都能化成代数的计算问题，因此有必要专门研究代数问题
+科学计算中的很多模型问题，最后都能化成代数计算问题，因此有必要专门研究代数问题
 在计算机上的高效求解算法。
 
-这门课程主要讲解以下四类问题的求解方法：
+该课程主要讲解以下四类问题的求解方法及相关数学理论：
 
 1. 线性方程组问题
 1. 最小二乘问题
 1. 特征值问题
 1. 奇异值问题
 
-方法各类分为两类：
+其中求解方法又可分为两类：
 
 * 直接法
 * 迭代法
 
 算法只有转化为实际的程序或软件才能发挥作用。要学好用好一个算法，深入理解算法的数
-学原理和动手实现应用算法是相辅相成的。 因此本课程还会加入一些编程基础的内容。我
-会在课程当中穿插介绍以下内容： 
+学原理和动手实现应用算法是相辅相成的。 因此本课程还会加入一些编程基础的内容。课
+程当中也会穿插介绍以下内容： 
 
 1. Python 基础
 1. Numpy 基础
@@ -37,14 +38,12 @@
 
 ## 课程学习资源与工具
 
-
 ### 教材
 
 1. James W. Demmel. Applied Numerical Linear Algebra. Society for Industrial and
    Applied Mathematics, 1997.
 
 ## [Perusall](http://www.perusall.com/)
-
 
 Perusall 是一个网络教学平台。教师可以在上面创建课程， 并在课程中招收学生。教师可
 以方便地在 Perusall 布置阅读作业，学生在阅读材料的过程中可以材料旁进行批注，学生
@@ -53,8 +52,7 @@ Perusall 是一个网络教学平台。教师可以在上面创建课程， 并�
 可以自动根据学生的活跃情况进行自动打分，并向教师反馈学生的阅读情况，教师也可以参
 与到学生的讨论中，及时掌握学生的情况。
 
-
-### Python 语言
+### [Python](www.python.org)
 
 Python 语言的特点：
 
@@ -68,11 +66,14 @@ Python 语言的特点：
     + SymPy： http://www.sympy.org - 数学符号计算。
 * 开源免费
 
-
 ### Markdown 语言
 
 Markdown 是一种轻量级的文本标记语言， 可以让你使用易读易写的纯文本格式编写美观的文档。
 
+在本课程中我将会简要介绍 Markdown 语言的基本用法，便于学生和老师之间更方便的交流。
+
+* [作业部落](https://www.zybuluo.com/mdeditor)
+* [Markdown 的基本语法](https://github.com/younghz/Markdown)
 
 ### [Dataquest](www.dataquest.io)
 
@@ -83,3 +84,19 @@ Dataquest 是一个大数据的自主学习网站，里面有免费学习 Python
 是否正确。学生只有完成了每个知识点的练习，才能进行下一步的学习。
 
 
+<div id="container"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/default.css"/>
+<script src="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/gitment.browser.js"></script>
+
+<script>
+var gitment = new Gitment({
+  id: 'window.location.pathname', 
+  owner: 'weihuayi',
+  repo: 'weihuayi.github.io',
+  oauth: {
+    client_id: '7dd9c9fc3ac45352b55b',
+    client_secret: '4e6f74b82a7ac18671c7e9e0d17a1ceb9359a5ad',
+  },
+})
+gitment.render('container')
+</script>
