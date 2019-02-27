@@ -22,13 +22,13 @@
 1. 特征值问题
 1. 奇异值问题
 
-其中求解方法又可分为两类：
+其中的求解方法又可分为两类：
 
 * 直接法
 * 迭代法
 
 算法只有转化为实际的程序或软件才能发挥作用。要学好用好一个算法，深入理解算法的数
-学原理和动手实现应用算法是相辅相成的。 因此本课程还会加入一些编程基础的内容。课
+学原理和动手实现并应用是相辅相成的两个过程。 因此本课程还会加入一些编程基础的内容。课
 程当中也会穿插介绍以下内容： 
 
 1. Python 基础
@@ -38,19 +38,13 @@
 
 ## 课程学习资源与工具
 
-### 教材
+### 参考教材 
 
-1. James W. Demmel. Applied Numerical Linear Algebra. Society for Industrial and
-   Applied Mathematics, 1997.
-
-## [Perusall](http://www.perusall.com/)
-
-Perusall 是一个网络教学平台。教师可以在上面创建课程， 并在课程中招收学生。教师可
-以方便地在 Perusall 布置阅读作业，学生在阅读材料的过程中可以材料旁进行批注，学生
-可以写自己的见解，可以提问，可以回答别人的问题。批注支持前面介绍的 Markdown 语言
-，可以很好的支持数学公式的输入，极大地方便了数学的讨论交流。学生完成作业后，网站
-可以自动根据学生的活跃情况进行自动打分，并向教师反馈学生的阅读情况，教师也可以参
-与到学生的讨论中，及时掌握学生的情况。
+1. James W. Demmel. Applied Numerical Linear Algebra, SIAM, 1997.
+1. R. Barrett and M. Berry and T. F. Chan and J. Demmel and J. Donato and J.
+   Dongarra and V. Eijkhout and R. Pozo and C. Romine and H. Van der Vorst,
+   Templates for the Solution of Linear Systems: Building Blocks for Iterative
+   Methods, SIAM, 1994.
 
 ### [Python](www.python.org)
 
@@ -68,12 +62,23 @@ Python 语言的特点：
 
 ### Markdown 语言
 
-Markdown 是一种轻量级的文本标记语言， 可以让你使用易读易写的纯文本格式编写美观的文档。
+Markdown 是一种轻量级的文本标记语言，可以让你使用易读易写的纯文本格式编写美观的文档。
 
 在本课程中我将会简要介绍 Markdown 语言的基本用法，便于学生和老师之间更方便的交流。
 
 * [作业部落](https://www.zybuluo.com/mdeditor)
 * [Markdown 的基本语法](https://github.com/younghz/Markdown)
+
+## [Perusall](http://www.perusall.com/)
+
+Perusall 是一个网络教学平台，具有以下功能和特点
+
+* 教师可以在上面创建课程，并招收学生。
+* 教师可以在 Perusall 布置阅读作业。
+* 教师和学生都可以在阅读材料旁做笔记，其他人可以看到并回复。
+* 批注支持前面介绍的 Markdown 语言，可以很好的支持数学公式的输入
+* 学生完成作业后，网站可以自动根据学生的活跃情况进行自动打分，并向教师反馈学生的阅读情况。
+
 
 ### [Dataquest](www.dataquest.io)
 
