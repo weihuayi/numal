@@ -4,7 +4,7 @@
 [www.perusall.com](www.perusall.com)。 我们将通过 Perusall 做以下事情
 
 1. 阅读作业
-1. 交流讨论  
+1. 交流讨论
 
 ## 使用简介 
 

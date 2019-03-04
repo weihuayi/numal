@@ -27,13 +27,23 @@
 * 直接法
 * 迭代法
 
-算法只有转化为实际的程序或软件才能发挥作用。要学好用好一个算法，深入理解算法的数
-学原理和动手实现并应用是相辅相成的两个过程。 因此本课程还会加入一些编程基础的内容。课
-程当中也会穿插介绍以下内容： 
+算法只有转化为程序或软件才能发挥作用。要学好用好一个算法，
 
-1. Python 基础
-1. Numpy 基础
-1. Scipy 基础
+1. 理解算法背后的数学思想和原理 
+1. 动手实现并应用于实际问题的解决
+
+是相辅相成的两个过程。 因此本课程还会加入一些**编程**基础的内容。
+
+另外，**写作**是脑力劳动者的主要工作形式，
+
+1. 学习笔记
+1. 汇报总结
+1. 论文
+1. 技术文档
+1. ......
+
+利用计算机和互联网工具可以大大提高写作的效率，因此本课程中我也会加入一些写作工具
+的介绍。
 
 
 ## 课程学习资源与工具
@@ -46,29 +56,6 @@
    Templates for the Solution of Linear Systems: Building Blocks for Iterative
    Methods, SIAM, 1994.
 
-### [Python](www.python.org)
-
-Python 语言的特点：
-
-* 支持面向对象编程的解释性语言，无需编译，易学易用。
-* 代码可读性非常强
-* 有庞大的用户社群，包括 NASA, ANL, Google 等国际知名的科研机构和公司都选择 Python 做为高性能计算的开发语言。Python 的初学者和开发者很容易从社群中获得帮助和开发文档。
-* 有丰富的科学计算基础软件包， 如：
-    + NumPy:  http://numpy.scipy.org - Numerical Python，主要提供多维数组及相关运算功能。
-    + SciPy:  http://www.scipy.org - Scientific Python，提供高效的优化、FFT、稀疏矩阵等科学计算模块。
-    + Matplotlib: http://www.matplotlib.org - Graphics library，提供成熟 2D 和 3D 画图软件功能。
-    + SymPy： http://www.sympy.org - 数学符号计算。
-* 开源免费
-
-### Markdown 语言
-
-Markdown 是一种轻量级的文本标记语言，可以让你使用易读易写的纯文本格式编写美观的文档。
-
-在本课程中我将会简要介绍 Markdown 语言的基本用法，便于学生和老师之间更方便的交流。
-
-* [作业部落](https://www.zybuluo.com/mdeditor)
-* [Markdown 的基本语法](https://github.com/younghz/Markdown)
-
 ## [Perusall](http://www.perusall.com/)
 
 Perusall 是一个网络教学平台，具有以下功能和特点
@@ -80,28 +67,21 @@ Perusall 是一个网络教学平台，具有以下功能和特点
 * 学生完成作业后，网站可以自动根据学生的活跃情况进行自动打分，并向教师反馈学生的阅读情况。
 
 
-### [Dataquest](www.dataquest.io)
+### [Python](www.python.org)
 
-Dataquest 是一个大数据的自主学习网站，里面有免费学习 Python 的基础课程，课程语言
-为英语。它的课程设计非常适合自学，Dataquest 把每门课程分解为很多由浅入深的小知识
-点，每个知识点后面都有配套编程练习。注意它的编程练习，不需要学生自己搭建本地编程
-环境，而是直接在网页的代码框写代码即可。写完代码后，可直接运行，网站自动判断程序
-是否正确。学生只有完成了每个知识点的练习，才能进行下一步的学习。
+请参见 [Python 简介](www.weihuayi.cn/code/python/index.html)
 
+### Markdown 语言
 
-<div id="container"></div>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/default.css"/>
-<script src="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/gitment.browser.js"></script>
+请参见 [Markdown 简介](www.weihuayi.cn/tools/markdown.html)
+
+{% include "./comment.md" %}
+
 
 <script>
-var gitment = new Gitment({
-  id: 'window.location.pathname', 
-  owner: 'weihuayi',
-  repo: 'weihuayi.github.io',
-  oauth: {
-    client_id: '7dd9c9fc3ac45352b55b',
-    client_secret: '4e6f74b82a7ac18671c7e9e0d17a1ceb9359a5ad',
-  },
-})
-gitment.render('container')
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'weihuayi/numal2019'
+  };
 </script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
