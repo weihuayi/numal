@@ -1,6 +1,0 @@
-#!/bin/sh
-
-while true
-do
-    gitbook serve
-done
