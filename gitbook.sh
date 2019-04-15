@@ -1,7 +1,5 @@
-#!/bin/sh
-
-CHANGED=$(git diff-index --name-only HEAD --)
-if [ ! -z $CHANGED ];then
+#!/bin/bash
+if [[ `git status --porcelain` ]];then
     cd ../weihuayi.github.io/
     git pull
     cd ../numal/
