@@ -2,3 +2,4 @@
 node_modules
 _book
 __pycache__
+.ipynb_checkpoints
