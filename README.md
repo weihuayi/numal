@@ -55,6 +55,7 @@
    Dongarra and V. Eijkhout and R. Pozo and C. Romine and H. Van der Vorst,
    Templates for the Solution of Linear Systems: Building Blocks for Iterative
    Methods, SIAM, 1994.
+1. http://math.ecnu.edu.cn/~jypan/Teaching/MatrixComp/
 
 ## [Perusall](http://www.perusall.com/)
 
