@@ -1,0 +1,56 @@
+% !Mode:: "TeX:UTF-8"
+\documentclass{book}
+\input{en_preamble.tex}
+\input{xecjk_preamble.tex}
+\begin{document}
+\title{数值代数讲义}
+\maketitle
+
+\chapter{引言}
+
+\section{课程主要内容}
+\begin{itemize}
+    \item Python 数值计算基础
+    \item 线性方程组的直接解法 (Gauss 消去法 / LU 分解)
+    \item 线性最小二乘问题的数值算法
+    \item 非对称矩阵的特征值计算
+    \item 对称矩阵特征值计算与奇异值分解
+    \item 线性方程组迭代算法 (大规模, 稀疏, 特殊结构)
+    \item 特征值问题的迭代算法 (大规模, 稀疏, 部分特征值和特征向量)
+\end{itemize}
+
+\section{主要参考资料}
+
+\begin{itemize}
+    \item G. Golub and C. F. van Loan, “Matrix Computations (4th),” Johns Hopkins University Press, 2013.
+中文版:《矩阵计算》(第三版), 袁亚湘等译, 科学出版社, 2001.
+\item J. W. Demmel, “Applied Numerical Linear Algebra,” SIAM, 1997.
+中文版:《应用数值线性代数》, 王国荣译, 人民邮电出版社, 2007.
+\item L. N. Trefethen and D. Bau, III, “Numerical Linear Algebra,” SIAM, 1997.
+中文版:《数值线性代数》, 陆金甫等译, 人民邮电出版社, 2006.
+\item 徐树方, “矩阵计算的理论与方法,” 北京大学出版社, 1995.
+\item 曹志浩, “数值线性代数,” 复旦大学出版社, 1996.
+\end{itemize}
+
+\section{二十世纪最优秀的十大算法}
+The Best of the 20th Century: Editors Name Top 10 Algorithms, SIAM News, Volume 33, Number 4, 2000.
+\begin{enumerate}
+    \item Monte Carlo method (1946)
+    \item Simplex Method for Linear Programming (1947)
+    \item {\color{blue} Krylov Subspace Iteration Methods (1950)}
+    \item {\color{blue} The Decompositional Approach to Matrix Computations
+        (1951)}
+    \item The Fortran Optimizing Compiler (1957)
+    \item {\color{blue} QR Algorithm for Computing Eigenvalues (1959-61)}
+    \item Quicksort Algorithm for Sorting (1962)
+    \item Fast Fourier Transform (1965)
+    \item Integer Relation Detection Algorithm (1977)
+    \item Fast Multipole Method (1987)
+\end{enumerate}
+(蓝色: 属于数值线性代数; 下划线: 与数值线性代数密切相关.)
+
+
+\cite{shi2000}
+\bibliographystyle{abbrv}
+\bibliography{ref}
+\end{document}
